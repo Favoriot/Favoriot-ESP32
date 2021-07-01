@@ -8,8 +8,8 @@
 #include <ArduinoJson.h>
 #include <SimpleDHT.h>
 
-#define APIKEY  "Your API key"                        //replace API key
-#define DEVICE_DEV_ID "Your Device Developer ID"      //replace device developer id
+#define APIKEY  "rw-apikey/acesstoken"                        //replace API key
+#define DEVICE_DEV_ID "deviceDefault@favoriot"      //replace device developer id
 
 const int SEN_PIN = 19;                               // Output Pin GPIO19
 SimpleDHT22 dht22(SEN_PIN);
