@@ -71,7 +71,7 @@ void loop()
   
     HTTPClient http;
   
-    http.begin("https://apiv2.favoriot.com/v2/streams");
+    http.begin("http://apiv2.favoriot.com/v2/streams");
     http.addHeader("Content-Type", "application/json");
     http.addHeader("Apikey", APIKEY);
   
